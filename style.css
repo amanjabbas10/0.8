@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ruda:wght@400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ruda",sans-serif;
+    scroll-behavior: smooth;
+}
+
+.nav1{
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+
+.nav1 img{
+    max-width: 200px;
+}
+
+.nav1 a{
+    text-decoration: none;
+    color: #24252a;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+}
+
+.nav1 a:hover{
+    color: #606060;
+}
+
+.icon-social a{
+    font-size: 18px;
+    margin: 10px;
+    color: #24252a;
+}
+
+.icon-social a:hover{
+    color: #606060;
+}
+
+
+.hero{
+    height: 85vh;
+    margin-top: 10px;
+    padding: 0 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+img{
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.hero .left-section .top h2{
+    font-size: 39px;
+    margin-bottom: 10px;
+}
+
+.hero .left-section .top p{
+    color: #606060;
+    margin-bottom: 10px;
+}
+
+.btn1{
+    border: none;
+    border-radius: 10px;
+    border: 1px solid #24252a;
+    padding:9px;
+    background: white;
+    margin: 5px;
+    transition: all 0.3s ease 0s;
+}
+
+
+.btn1:hover{
+    background: black;
+    color: white;
+}
+
+
+.btn2:hover{
+    background: white;
+    color: black;
+}
+
+
+
+.btn2{
+    transition: all 0.3s ease 0s;
+    border: none;
+    border-radius: 10px;
+    border:  1px solid #24252a;
+    padding: 9px;
+    background: black;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.itmes{
+    margin-top: 8%;
+    padding: 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itmes .itme .inner h2{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.itmes .itme .inner p{
+    padding:  0 20px;
+    text-align:start;
+}
+
+.itmes .itme .inner b{
+    font-size: 18px;
+}
+
+
+.btn3{
+    background: white;
+    border: none;
+    border-radius: 10px;
+    border:  1px solid black;
+    padding: 0 5px;
+    font-size: 15px;
+    margin: 19px;
+    transition: all 0.3s ease 0s;
+}
+
+.btn3:hover{
+    background: black;
+    color: white;
+}
+
+
+footer{
+    background: #24252a;
+    padding: 30px;
+    border-radius: 24px 24px 0 0;
+    color: #606060;
+    font-size: 14px;
+    text-align: center;
+}
+ footer a{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 0 50px;
+    opacity: 0.5;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+ }
+
+ footer a:hover{
+    opacity: 1;
+    text-decoration:underline;
+ }
+
+
